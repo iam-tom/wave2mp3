@@ -60,6 +60,10 @@ class dlg(wx.Frame):
 
     # dummy for filling empty spaces
     dummy=wx.StaticText(parent,-1,'')
+    dummy2=wx.StaticText(parent,-1,'')
+    dummy3=wx.StaticText(parent,-1,'')
+    dummy4=wx.StaticText(parent,-1,'')
+    dummy5=wx.StaticText(parent,-1,'')
 
     # Change to flexgridsizer
     ##sizer=wx.GridSizer(8,3,0,0)
@@ -69,7 +73,7 @@ class dlg(wx.Frame):
 
     sizer.Add(pf_btn_txt,1,wx.BOTTOM |wx.ALIGN_BOTTOM)
     sizer.Add(dummy,1,wx.EXPAND)
-    sizer.Add(dummy,1,wx.EXPAND)
+    sizer.Add(dummy2,1,wx.EXPAND)
 
     sizer.Add(self.pf_btn,1)
     sizer.Add(self.del_pf_btn,1)
@@ -77,14 +81,14 @@ class dlg(wx.Frame):
 
 
     sizer.Add(dir_btn_txt,1,wx.BOTTOM |wx.ALIGN_BOTTOM)
-    sizer.Add(dummy,1,wx.EXPAND)
-    sizer.Add(dummy,1,wx.EXPAND)
+    sizer.Add(dummy3,1,wx.EXPAND)
+    sizer.Add(dummy4,1,wx.EXPAND)
 
     sizer.Add(self.dir_btn,1)
     sizer.Add(self.del_dir_btn,1)
     sizer.Add(self.ts_glist,1,wx.EXPAND)
     sizer.Add(self.ok_btn,1)
-    sizer.Add(dummy,1,wx.EXPAND)
+    sizer.Add(dummy5,1,wx.EXPAND)
 
 
 
